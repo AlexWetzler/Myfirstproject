@@ -13,7 +13,7 @@ package com.company;
 public class Kshapechallengev2 {
     public static void main(String[] args) {
 
-        char letter = 65;
+        char letter = 65; //this has to be equal to 65 or else you'll get weird symbols/characters since the alphabet starts at 65
 
         for (int Top = 6; Top > 0; Top--) { //you need a for loop in a for loop
             for (int i = 0; i < Top; i++) {
